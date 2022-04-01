@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "glomod:edible_paper",
+    "count": 4
+  }
+}

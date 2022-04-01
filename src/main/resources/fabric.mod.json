@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "glomod",
+  "version": "${version}",
+  "name": "Glomod",
+  "description": "Glomod!",
+  "authors": [
+    "nsgwick"
+  ],
+  "contact": {
+    "website": "nsgwick.com"
+  },
+  "license": "MIT",
+  "icon": "assets/Glomod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.nsgwick.glomod.client.GlomodClient"
+    ],
+    "main": [
+      "com.nsgwick.glomod.Glomod"
+    ]
+  },
+  "mixins": [
+    "Glomod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
